@@ -1,8 +1,60 @@
-body {
-  background-color: #ff0000;
-  color: #0000FF;
+/*************** Meyer's Browser Reset *********/
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
 
+/**************** HTML Selectors ************/
+
+body {
+  background-color: #fff;
+  color: #1D544A;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+/* h1 Properties */
+h1 {
+background-color: #D6F0EC;
+  font-size: 3em;
+  line-height: 120%;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* h3 Properties */
+h3 {
+  font-size: 2em;
+  line-height: 120%;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Header Properties */
+header {
+  padding-top: 10em;
+}
+
+/* Navbar Properties */
 nav {
   background-color: rgba(0,0,0,.5);
   float: left;
@@ -10,43 +62,66 @@ nav {
   width: 100%;
 }
 
+/**************** Class Selectors ************/
+
+/* Author + Story Text Properties */
+.author, .story-text {
+  background-color: #E8E8E8;
+  color: #424242;
+  font-size: 1em;
+  line-height: 150%;
+  padding: 1.5em;
+}
+
+/* Article Properties */
+.article {
+  padding-top: 100px;
+}
+
+/* Container Properties */
+.container {
+  margin: 0 auto;
+  width: 50%;
+}
+
+/* Logo Properties */
 .logo {
   margin: 20px;
   width: 100px;
 }
 
+/* Large Image Properties */
 .large-pic {
   width: 100%;
 }
 
+/* Medium Image Properties */
 .medium-pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 70%;
 }
 
-.left, .right {
+/* Left Alignment Properties */
+.left {
   float: left;
   width: 50%;
 }
-
+/* Right Alignment Properties */
 .right {
   float: right;
+  margin: 20px;
 }
 
-ul {
+/* Unordered List Properties */
+.ul {
   list-style-type: none;
   float: right;
 }
 
-li {
+/* List Item Properties */
+.li {
   float: right;
   padding: 30px;
-}
-
-article {
-  padding-top: 100px;
-}
-
-.container {
-  margin: 0 auto;
-  width: 50%;
 }
