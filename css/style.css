@@ -109,3 +109,8 @@ nav {
   float: right;
   padding: 30px;
 }
+
+/* List Hover Properties */
+li:hover {
+  background-color: #E80C7A;
+}
